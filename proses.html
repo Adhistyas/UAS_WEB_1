@@ -3,13 +3,194 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style-index.css" />
+    <title>Seduh Coffee</title>
+    <link rel="stylesheet" href="css/style-proses.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.cdnfonts.com/css/plus-jakarta-sans"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
   </head>
   <body>
-    <h1>Test proses</h1>
-    <a href="#">index</a>
-    <a href="proses.html">proses</a>
+    <!-- Navbar dimulai -->
+    <nav
+      class="navbar navbar-expand-lg custom-navbar bg-gradient fixed-top py-3"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand fs-4 ms-3" href="#">
+          <span class="text-black">Seduh</span>
+          <span class="coffee-text">Coffee</span>
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active home-text" aria-current="page" href="index.html"
+                ><strong>Home</strong></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link proses-text" href="proses.html"
+                ><strong>Proses Pengolahan</strong></a
+              >
+            </li>
+            <li class="nav-item">
+              <button
+                id="connectKontak"
+                type="button"
+                class="btn btn-outline-success cs-button"
+              >
+                <strong> Contact Us! </strong>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar akhir -->
+    <section class="hero" id="#">
+      <main class="content">
+        <div class="content-text ms-3 mt-5">
+          <h1 class="text-black">Proses Pengolahan <span class="cust-txt-h1">Kopi</span></h1>
+          <p>
+            Membuat kopi yang benar melibatkan beberapa langkah kunci untuk
+            menghasilkan rasa yang optimal. Mulai dari pemilihan biji kopi
+            berkualitas, penggilingan yang tepat, penggunaan air dengan suhu
+            yang sesuai, hingga metode penyeduhan yang dipilih. Setiap langkah
+            memengaruhi hasil akhir kopi
+          </p>
+        </div>
+         <div class="video-content">
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/6N41TsmqnCY?si=xpz_Pl0V5dmWSjiA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p class="video-caption">Video: Proses Pembuatan Kopi</p>
+        </div>
+      </main>
+    </section>
+
+    <!--Tabel Bahan Bahan-->
+    <h1 class="text-h1">Bahan-Bahan Pembuatan Kopi</h1>
+    <div class="bahan">
+    <table class="table table-bordered tabel ">
+      <thead>
+        <tr>
+          <th>No.</th>
+          <th>Bahan</th>
+          <th>Jumlah/Ukuran</th>
+          <th>Keterangan</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1.</td>
+          <td>Biji Kopi (Opsional)</td>
+          <td>100-200 gram</td>
+          <td>Giling kasar untuk French Press, halus untuk Espresso</td>
+        </tr>
+        <tr>
+          <td>2.</td>
+          <td>Air Bersih</td>
+          <td>250 ml</td>
+          <td>Suhu ideal 90-96°C</td>
+        </tr>
+        <tr>
+          <td>3.</td>
+          <td>Susu (Opsional)</td>
+          <td>Sesuai selera</td>
+          <td>Susu full cream atau oat milk untuk latte/cappuccino</td>
+        </tr>
+        <tr>
+          <td>4.</td>
+          <td>Gula/Pemanis (Opsional)</td>
+          <td>Sesuai selera</td>
+          <td>Gula pasir, gula aren, atau pemanis lainnya</td>
+        </tr>
+        <tr>
+          <td>5.</td>
+          <td>Es Batu (Opsional)</td>
+          <td>Secukupnya</td>
+          <td>Untuk kopi dingin (iced coffee)</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+  </div>
+</div>
+ <section class="langkah-langkah">
+  <div class="langkah">
+    <h1 class="text-h1"> Proses pengolahannya </h1>
+    <ul>
+      <li>Pilih Grind Size yang Tepat: Ini adalah langkah paling krusial. Untuk espresso, Anda membutuhkan gilingan yang sangat halus, seperti tepung tetapi dengan sedikit tekstur. Jika gilingan terlalu kasar, ekstraksi akan terlalu cepat dan hasilnya encer. Jika terlalu halus, ekstraksi akan terlalu lambat dan hasilnya pahi</li>
+      <li>Isi Portafilter: Masukkan kopi yang sudah digiling ke dalam keranjang portafilter. Pastikan terisi merata.</li>
+      <li>Ratakan Kopi (Distribusi): Gunakan jari atau alat distribusi untuk meratakan bubuk kopi di dalam portafilter. Ini membantu memastikan air mengalir secara merata melalui bubuk kopi.</li>
+      <li>Tamping: Gunakan tamper untuk menekan bubuk kopi dengan tekanan yang konsisten dan rata. Tamping yang baik akan menciptakan "kue" kopi yang padat, yang diperlukan agar air tertekan dengan benar melalui bubuk kopi dan menghasilkan ekstraksi yang optimal. Pastikan permukaan rata dan tidak miring.</li>
+      <li>Pasang Portafilter: Kunci portafilter ke group head mesin kopi Anda. Pastikan terkunci dengan rapat.</li>
+      <li>Flush Group Head (Opsional tapi disarankan): Sebelum memasang portafilter, Anda bisa melakukan "flush" singkat dengan menjalankan sedikit air melalui group head tanpa portafilter. Ini membersihkan sisa kopi dan menstabilkan suhu.</li>
+      <li>Mulai Ekstraksi: Tempatkan cangkir espresso (pre-heated jika memungkinkan) di bawah spout portafilter. Tekan tombol ekstraksi.</li>
+      <li>Hentikan Ekstraksi: Hentikan ekstraksi setelah Anda mencapai volume yang diinginkan atau waktu yang tepat.</li>
+      <li>Sajikan Segera: Espresso paling baik dinikmati segera setelah diekstraksi</li>
+    </ul>
+  </div>
+ </section>
+ <div class="wrapp-card">
+          <div class="card" style="width: 16rem">
+            <img src="assets/mesinespresso.jpg.jpg" class="card-img-top" alt="arabika" />
+            <div class="card-body">
+              <h5 class="card-title">Mesin Espresso</h5>
+              <p class="card-text">
+                Mesin espresso adalah perangkat elektronik untuk membuat kopi espresso yang terdiri dari sistem pemanas air, mekanisme pompa, serta komponen-komponen teknis untuk mendukung proses ekstraksi espresso
+              </p>
+            </div>
+          </div>
+          <div class="card" style="width: 16rem">
+            <img src="assets/tamper.jpg" class="card-img-top" alt="arabika" />
+            <div class="card-body">
+              <h5 class="card-title">Temper</h5>
+              <p class="card-text">
+                Tamper adalah alat yang digunakan untuk meratakan dan mengompres bubuk kopi dalam portafilter sebelum proses ekstraksi
+              </p>
+            </div>
+          </div>
+          <div class="card" style="width: 16rem">
+            <img src="assets/timbangan.jpg" class="card-img-top" alt="arabika" />
+            <div class="card-body">
+              <h5 class="card-title">Timbangan (scale) </h5>
+              <p class="card-text">
+                Pentingnya timbangan dalam dunia kopi modern tidak dapat diabaikan. Tool dalam barista ini digunakan untuk mengukur jumlah bahan dengan presisi yang tinggi, baik itu biji kopi, bubuk kopi, air, atau bahan lainnya
+              </p>
+            </div>
+          </div>
+          <div class="card" style="width: 16rem">
+            <img src="assets/portafilter.jpg" class="card-img-top" alt="arabika" />
+            <div class="card-body">
+              <h5 class="card-title">Portafilter</h5>
+              <p class="card-text">
+                Portafilter adalah alat yang digunakan untuk menampung bubuk kopi dan tempat di mana proses ekstraksi espresso terjadi. Komponen inti dalam setiap mesin espresso, dan bagian yang langsung terhubung dengan bubuk kopi dan air panas
+              </p>
+            </div>
+            <footer>
+              
+            </footer>
+          </div>
     <script src="js/script-proses.js"></script>
   </body>
 </html>
